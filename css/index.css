@@ -134,3 +134,33 @@ html,
 body {
   height: 100%;
 }
+
+/* My Code Begins Here */
+body {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+.topContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+.name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+    width: 20rem;
+    background-color: #0a66c2;
+}
+.name h1{
+    color: white;
+}
+#A1 {
+    text-align: center;
+    padding-top: 2rem;       
+}
