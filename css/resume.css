@@ -134,6 +134,7 @@ body {
 }
 
 /* My Code Begins Here */
+@border: 1px solid black;
 body {
     width: 80%;
     font-family: 'Libre Baskerville', sans-serif;
@@ -210,4 +211,32 @@ ul {
     width: 100%;
     display: flex;
     border: 1px solid black;
+}
+nav {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover a {
+    color: #0a66c2;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
 }

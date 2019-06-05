@@ -40,7 +40,7 @@ h1 a{
     padding: 5px;
     font-size: 15px;
     color: black;
-    background: white url(images/search.png) right center no-repeat;
+    background: white url(Img/search.png) right center no-repeat;
     border: 1px solid dimgray;
 }
 .submit{
@@ -134,12 +134,12 @@ ul {
 
 #leftsidebar ul li{
     padding: 4px 0 50px 10px;
-    list-style-image: url(images/pc.png);
+    list-style-image: url(Img/pc.png);
 }
 
 #rightsidebar ul li{
     padding: 17px 0 17px 70px;
-    background: url(images/tick.png) no-repeat left center;
+    background: url(Img/tick.png) no-repeat left center;
 }
 
 .sidebar ul li a{
