@@ -176,8 +176,8 @@ a:hover {
     width: 100%;
 }
 .skills {
-    border-top: 1px solid black;
-    width: 50%;
+    border: 1px solid black;
+    width: 30%;
     padding-top: 2rem;
     margin-top: 2rem;
     height: 10rem;
@@ -191,18 +191,23 @@ a:hover {
     justify-content: space-around; 
 }
 .projects {
-    width: 50%;
+    border: 1px solid black;
+    width: 70%;
     padding-top: 2rem;
     margin-top: 2rem;
-    height: 10rem;
+    margin-left: 2rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
+}
+.projects ul {
+    padding-left: 2rem;
 }
 ul {
     list-style: disc;
 }
 .bottom {
-    border: 1px solid black;
     width: 100%;
     display: flex;
+    border: 1px solid black;
 }
