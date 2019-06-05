@@ -134,7 +134,9 @@ body {
 }
 
 /* My Code Begins Here */
+
 @border: 1px solid black;
+
 body {
     width: 80%;
     font-family: 'Libre Baskerville', sans-serif;
@@ -177,13 +179,13 @@ a:hover {
     width: 100%;
 }
 .skills {
-    border: 1px solid black;
     width: 30%;
     padding-top: 2rem;
     margin-top: 2rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 }
 #A3 {
     display: flex;
