@@ -164,3 +164,11 @@ body {
     text-align: center;
     padding-top: 2rem;       
 }
+#A1 a:hover {
+    color:#0a66c2;
+}
+#A2 {
+    text-align: center;
+    padding-top: 2rem;       
+
+}
