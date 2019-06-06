@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+/* My Code Begins Here */
+
+@border: 1px solid black;
+
+body {
+    width: 80%;
+    font-family: 'Libre Baskerville', sans-serif;
+    margin: auto;
+}
+.topContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+.name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+    width: 20rem;
+    background-color: #0a66c2;
+}
+.name h1{
+    color: white;
+}
+#A1 {
+    text-align: center;
+    padding-top: 2rem;       
+}
+a:hover {
+    color:#0a66c2;
+}
+#A2 {
+    text-align: center;
+    padding-top: 2rem;       
+}
+.midContent {
+    display: flex;
+    width: 100%;
+}
+.skills {
+    width: 30%;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+#A3 {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.projects {
+    border: 1px solid black;
+    width: 70%;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.projects ul {
+    padding-left: 2rem;
+}
+ul {
+    list-style: disc;
+}
+.bottom {
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+nav {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover a {
+    color: #0a66c2;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+}

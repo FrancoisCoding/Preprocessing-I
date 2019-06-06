@@ -1,1 +1,318 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  width: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  margin: auto;
+}
+.topContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+@media (max-width: 400px) {
+  .topContent {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7rem;
+  width: 20rem;
+  background-color: #0a66c2;
+}
+.name h1 {
+  color: white;
+}
+#A1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+a:hover {
+  color: #0a66c2;
+}
+#A2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+.midContent {
+  display: flex;
+  width: 100%;
+}
+@media (max-width: 400px) {
+  .midContent {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.skills {
+  width: 30%;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+@media (max-width: 500px) {
+  .skills {
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .skills {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 200px) {
+  .skills {
+    border: none;
+  }
+}
+#A3 {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 2;
+  flex-direction: column;
+}
+.projects {
+  border: 1px solid black;
+  width: 70%;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .projects {
+    height: 20%;
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .projects {
+    height: 20%;
+  }
+}
+@media (max-width: 400px) {
+  .projects {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 200px) {
+  .projects {
+    border: none;
+  }
+}
+.projects ul {
+  padding-left: 2rem;
+  list-style: disc;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+@media (max-width: 500px) {
+  .bottom {
+    height: 20%;
+  }
+}
+@media (max-width: 400px) {
+  .bottom {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 200px) {
+  .bottom {
+    border: none;
+    flex-direction: column;
+  }
+}
+nav {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+nav .navbar {
+  display: flex;
+  justify-content: space-around;
+}
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 2;
+}
+@media (max-width: 400px) {
+  nav .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+nav .nav-item a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  nav .nav-item a {
+    padding: 5%;
+  }
+}
+nav .nav-item:hover a {
+  color: #0a66c2;
+  font-size: 20px;
+  transition: font-size 0.3s ease;
+}
